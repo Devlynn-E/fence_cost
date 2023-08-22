@@ -47,15 +47,15 @@ while keep_going == "":
 
 # print()
 # print("\nso every meter costs: {}".format(cost_per_m))
-    print("\nso every meter costs:$", cost_per_m)
+    print("\nso every meter costs: ${}".format(cost_per_m))
 
     # Calculate perimeter (width + height) x 2
     perimeter = (width + length) * 2
 # Calculate the cost of the fencing (perimeter x price / meter)
     cost = perimeter * cost_per_m
 # Output the perimeter and cost of the fencing
-    print("\nthe perimeter of your fence is:", perimeter)
-    print("therefore, the cost will be:$", cost)
+    print("\nthe perimeter of your fence is: {}m".format(perimeter))
+    print("therefore, the cost will be: ${}".format(cost))
 
     keep_going = input("Press <enter> to keep going or any key to quit")
 
